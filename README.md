@@ -1,11 +1,14 @@
-# sunburst-challenge
+# Sunburst Chart 
+## Emmy Nominations By Channel And Television Program
+
+![tv gif](sunburst.gif)
 
 Extract
 - Webscrape of Emmys Nominations by television program and network from 2016-2020
 
 Transform
 - Used value_counts( ) function to add column displaying frequency of emmy nominations by television program/title
-- List of Lists Forloop to create new DataFrame following ids-labels-parents-value layer in preparation for sunburst plot
+- Forloop to create new DataFrame following labels-parents-value layer in preparation for sunburst plot
 
 Load
 - Exported dataFrame to csv
