@@ -6,8 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Sunburst Chart</title>
-  
+  <style>
+  </style>
   <!-- Load d3 -->
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <!-- Load plotly.js into the DOM -->
@@ -16,17 +16,11 @@
 </head>
 
 <body>
-
 	<div class="row">
         <div class="col-md-12">
-          <div class="well">
+          <div class="well"></div>
     <div>
-        <br>
-        <h1 style="text-align: center;">Sunburst Chart</h1>
-    </div>
-    <div>
-        <br> 
-        <div id='sunburstPlot'><!-- Plotly chart will be drawn inside this DIV --></div>
+        <div id='sunburstPlot'><h1 style="text-align:center;">Emmy Nominations by Network & Program</h1><!-- Plotly chart will be drawn inside this DIV --></div>
         <br>
     </div>
 <script src= "{{url_for('static', filename='plot.js')}}"></script>
